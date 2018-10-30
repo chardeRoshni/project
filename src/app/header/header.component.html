@@ -1,0 +1,118 @@
+<div class="header1">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <div class="">
+                <img src="./assets/img/logo.png" class="img-thumbnail" alt="logo" width="150" height="100">
+            </div>
+        </div>
+        <div class="col-md-5 offset-md-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="code underline">
+                        <b>
+                            Code:
+                        </b>
+                    </div>
+                    <div class="code underline">
+                        <b>
+                            Approved by:
+                        </b>
+                    </div>
+                </div>
+                <div class="col-md-8 no-div-padding">
+                    <p class="code">
+                        College code here
+                    </p>
+                    <p class="code">
+                        College approval text here
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div>
+            <ul class="nav nav-pills" role="tablist">
+                <li class="col-md-4 nav-item no-div-padding border-right border-white">
+                    <a class="nav-link active" data-toggle="pill" [routerLink]="['/']">Home</a>
+                </li>
+                <li class="col-md-4 nav-item no-div-padding border-right border-white">
+                    <a class="nav-link" data-toggle="pill" [routerLink]="['/about']">About</a>
+                </li>
+                <li class="col-md-4 nav-item no-div-padding">
+                    <a class="nav-link" data-toggle="pill" href="#menu2">Results</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h5 class="text-center">College Name Here
+        </h5>
+    </div>
+    <div class="col-md-4">
+        <div>
+            <ul class="nav nav-pills" role="tablist">
+                <li class="col-md-5 nav-item no-div-padding">
+                    <a class="nav-link active" data-toggle="pill" href="#home">Admission Process</a>
+                </li>
+                <li class="col-md-4 nav-item no-div-padding border-left border-white">
+                    <a class="nav-link" data-toggle="pill" href="#menu1">Committees</a>
+                </li>
+                <li class="col-md-3 nav-item no-div-padding border-left border-white">
+                    <a class="nav-link" data-toggle="pill" href="#menu2">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- <div class="col-md-4 no-div-padding"> </div> -->
+
+    <div class="col-md-4 offset-md-4 no-div-padding">
+        <p class="div-border"></p>
+    </div>
+</div>
+
+<div class="">
+    <ul class="nav nav-pills" role="tablist">
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link active" data-toggle="pill" href="#home">Facilities</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu1">Faculty</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Departments</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Event Gallery</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Councils</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">T & P Cell</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Research & Publication</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Mandatory Disclosure</a>
+        </li>
+        <li class="nav-item no-div-padding border-right border-white">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Downloads</a>
+        </li>
+        <li class="nav-item no-div-padding">
+            <a class="nav-link" data-toggle="pill" href="#menu2">SAR/NAAC Report</a>
+        </li>
+    </ul>
+</div>
+<div class="border-top border-bottom mt-1 text-center">
+    <marquee>Upcoming Event / News will be displayed in this section</marquee>
+</div>
+
+<router-outlet></router-outlet>

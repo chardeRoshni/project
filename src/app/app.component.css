@@ -1,0 +1,56 @@
+.header1{
+    margin:15px 0;
+    }
+    .underline{
+    border-bottom: 2px solid #c8c4c4;
+    }
+    .code{
+        margin-bottom: 0rem;
+    }
+     
+      .div-border{
+        border-bottom: 3px solid #f5d951;
+        height: 30px;
+        /* margin-bottom: 0; */
+        margin: 0 0;
+       
+    
+    }
+    .no-div-padding{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .nav {
+        overflow: hidden;
+        background-color: #333;
+      }
+    
+    .nav-pills .nav-link {
+        border-radius:0;
+    } 
+    .nav .nav-item a:hover {
+        color: #fff;
+        border-bottom: 3px solid #f5d951;
+      }
+      
+      .nav .nav-item a.active {
+        background-color: #f5d951;
+        color: #000;
+        border-bottom: 3px solid #b1a6a6;
+      }
+    
+    
+       .nav .nav-item a {
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        border-bottom: 3px solid #f5d951;
+      }
+      
+      
+    
+    
+      
+     
+      
+    
